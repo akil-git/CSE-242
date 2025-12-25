@@ -1,6 +1,6 @@
 # Tech Accessories E-commerce Site
 
-This is a full-stack e-commerce application for Tech Accessories. The design is based on https://www.figma.com/design/mg61KzN1JbG7pjhCWEFYWL/Tech-Accessories-E-commerce-Site.
+This is a full-stack e-commerce application for Tech Accessories. 
 
 ## Features
 
