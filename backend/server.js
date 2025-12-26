@@ -12,7 +12,8 @@ app.use(morgan('dev'));
 
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://cryotechinfo_db_user:oGeoBpaITcdJOLwg@cluster0.vz9ekxi.mongodb.net/?appName=Cluster0";
+// Use MongoDB URI from environment for secure deployments (Render sets env vars)
+const uri = process.env.MONGODB_URI || "mongodb+srv://cryotechinfo_db_user:oGeoBpaITcdJOLwg@cluster0.vz9ekxi.mongodb.net/?appName=Cluster0";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {

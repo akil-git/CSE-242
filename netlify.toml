@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# Use Node 18 on Netlify
+[build.environment]
+  NODE_VERSION = "18"
