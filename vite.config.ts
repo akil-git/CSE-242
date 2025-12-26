@@ -6,7 +6,7 @@
     const react = (await import('@vitejs/plugin-react')).default;
     return {
       plugins: [react()],
-    resolve: {
+      resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
         'vaul@1.1.2': 'vaul',
