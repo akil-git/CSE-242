@@ -23,13 +23,14 @@
   },
   "scripts": {
     "start": "node server.js",
+    "dev": "npm run start",
     "seed": "node seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "devDependencies": {
     "@types/node": "^25.0.2",
